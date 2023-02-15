@@ -1,0 +1,145 @@
+body{
+    background-color: #E8F3D6;
+    background-image: url("https://www.transparenttextures.com/patterns/white-diamond.png");
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);  
+}
+input{
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn{
+    border: solid 2px #F6F7C1;
+}
+input[type=date]{
+    width: 270px;
+}
+.top-head{
+    background-color : #9ED5C5;
+    padding: 2% 5%;
+    border: 2px solid #F6F7C1;
+    border-radius: 20px;
+    margin: 2% 10%;
+    box-shadow: 0px 0px 10px 10px #698269;
+}
+.top-head h1{
+    margin: 1% auto 3%;
+    text-align: center;
+}
+.top-head p{
+    color: red;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul li::before{
+    content: "\25AA";
+    color: blue;
+    display: inline-block;
+    font-size: 200%;
+    padding-right: 20px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.button-head{
+    text-align: right;
+    margin-right: 3%;
+}
+
+.intro{
+    text-align: center;
+}
+input[name="revenue"]{
+    background-color: #9ED5C5;
+    border: none;
+    border-bottom: solid 2px black;
+    border-radius: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+input[name="revenue"]:focus{
+    outline: none;
+}
+/* dateblock  */
+
+.date-block{
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.date-block p{
+    margin: 0;
+}
+ 
+
+/* newItem */
+
+.new-item{
+    display: flex;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #8EC3B0;
+    margin: 30px 0px;
+    box-shadow: 0px 0px 5px 5px #698269;
+    
+}
+.new-item h1{
+    text-align: center;
+    padding: 10px;
+}
+.Amount{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.container-items{
+    margin: 1% 10%;
+}
+
+/* pie chart */
+
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Bar Chart */
+
+.bar-area{
+    width: 300px;
+    height: 50px;
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+.bar-fill{
+    background-color: blue;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
